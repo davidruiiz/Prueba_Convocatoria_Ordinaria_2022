@@ -1,11 +1,15 @@
 class Encriptado:
     
-    def __init__(self, texto, clave):
-        self.texto = texto
+    def __init__(self, mensaje, clave):
+        self.mensaje = mensaje
         self.clave = clave
-        self.cifrado = ""
-        self.descifrado = ""
+        self.Matrix = [['' for cols in range(len(mensaje))] for rows in range(clave)]
+        self.row = 0
+        self.col = 0
+        self.i = 1
     
+    def __str__(self):
+        return self.mensaje
     
     def encriptado(mensaje, clave):
         Matrix = [['' for cols in range(len(mensaje))] for rows in range(clave)]
@@ -25,10 +29,8 @@ class Encriptado:
             print(j)
         return Encryption
 
+  
+
     if __name__ == '__main__':
-        M=encriptado("SOMETHING", 3)
-
-        print(M)
-
-
+        
 
