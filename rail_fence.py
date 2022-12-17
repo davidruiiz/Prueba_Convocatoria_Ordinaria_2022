@@ -1,5 +1,4 @@
-import sys
-import 
+import sys, os
 
 class Encriptado:
     
@@ -34,6 +33,9 @@ class Encriptado:
 
   
 
-    if __name__ == '__main__':
+
+if __name__ == '__main__':
+    print(Encriptado.encriptado('hola', 3))
+    print(Encriptado.encriptado('holaquetal', 4))
         
 
