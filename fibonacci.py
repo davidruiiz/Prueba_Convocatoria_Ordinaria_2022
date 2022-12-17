@@ -1,4 +1,3 @@
-#fib.py
 import sys
 
 def fibonacci_iterative(n:int)->int:

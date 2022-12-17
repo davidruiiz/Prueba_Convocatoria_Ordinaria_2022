@@ -6,3 +6,4 @@ Verticalmente: como (D -> G) en la imagen del patrón de ejemplo.
 En diagonal: como (I -> E), así como (B -> I), en la imagen del patrón de ejemplo.
 Pasando por encima de un punto entre ellos que ya ha sido 'usado': como (G -> C) pasando por encima de E, en la imagen del patrón de ejemplo. Esta es la regla más complicada. Normalmente, no podría conectar G con C, porque E está entre ellos, sin embargo , cuando E ya se ha utilizado como parte del patrón que está rastreando, puede conectar G con C pasando por E , porque E se ignora , como ya se usó una vez.
 """
+

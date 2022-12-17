@@ -86,7 +86,7 @@ tablero[1][3] = 1
 tablero[1][4] = 9
 tablero[1][5] = 5
 tablero[2][1] = 9
-tablero[2][2] = 8
+tablero[2][2] = 8  
 tablero[2][7] = 6
 tablero[3][0] = 8
 tablero[3][4] = 6
@@ -100,4 +100,3 @@ if __name__ == "__main__":
     print("Tablero solucionado:")
     imprimirTablero(tablero)
 
-    
