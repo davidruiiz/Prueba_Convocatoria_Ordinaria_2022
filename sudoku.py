@@ -78,6 +78,19 @@ def imprimirTablero(tablero):
                 print(str(tablero[i][j]) + " ", end="")
 
 tablero = crearTablero()
+tablero[0][0] = 5
+tablero[0][1] = 3
+tablero[0][4] = 7
+tablero[1][0] = 6
+tablero[1][3] = 1
+tablero[1][4] = 9
+tablero[1][5] = 5
+tablero[2][1] = 9
+tablero[2][2] = 8
+tablero[2][7] = 6
+tablero[3][0] = 8
+tablero[3][4] = 6
+print(tablero)
 
 if __name__ == "__main__":
     print("Sudoku")
@@ -86,3 +99,5 @@ if __name__ == "__main__":
     resolver(tablero)
     print("Tablero solucionado:")
     imprimirTablero(tablero)
+
+    
