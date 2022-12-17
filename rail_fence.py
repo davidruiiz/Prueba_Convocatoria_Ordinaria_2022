@@ -31,8 +31,6 @@ class Encriptado:
             print(j)
         return Encryption
 
-  
-
 
 if __name__ == '__main__':
     print(Encriptado.encriptado('hola', 3))
