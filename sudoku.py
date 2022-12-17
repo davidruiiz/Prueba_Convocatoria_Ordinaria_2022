@@ -14,6 +14,14 @@ El sudoku a resolver ha de estar bien planteado, i.e., ha de tener solución ún
 
 import numpy as np
 
+class Sudoku:
+
+    def __init__(self, sudoku):
+        self.sudoku = sudoku
+
+    def __str__(self):
+        return str(self.sudoku)
+
 def crearTablero():
     tablero = np.zeros((9,9), dtype=int)
     return tablero
