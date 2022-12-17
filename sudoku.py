@@ -92,10 +92,10 @@ tablero[3][0] = 8
 tablero[3][4] = 6
 
 if __name__ == "__main__":
-    print("Sudoku")
-    print("Tablero inicial:")
+    print("Sudoku\n")
+    print("\nTablero inicial:")
     imprimirTablero(tablero)
     resolver(tablero)
-    print("Tablero solucionado:")
+    print("\nTablero solucionado:")
     imprimirTablero(tablero)
 
