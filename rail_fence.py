@@ -1,3 +1,6 @@
+import sys
+import 
+
 class Encriptado:
     
     def __init__(self, mensaje, clave):
