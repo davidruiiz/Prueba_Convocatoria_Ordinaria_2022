@@ -90,7 +90,6 @@ tablero[2][2] = 8
 tablero[2][7] = 6
 tablero[3][0] = 8
 tablero[3][4] = 6
-print(tablero)
 
 if __name__ == "__main__":
     print("Sudoku")
