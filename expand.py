@@ -116,6 +116,17 @@ def get_term(variable:str, coefficient:int, power:int)->str:
 
     return term
 
+def factorial(n:int)->int:
+    """
+    Gets the factorial of n.
+    """
+    # Get the factorial
+    factorial = 1
+    for i in range(1, n+1):
+        factorial *= i
+
+    return factorial
+
 def combination(n:int, k:int)->int:
     """
     Gets the combination of n and k.
@@ -125,29 +136,15 @@ def combination(n:int, k:int)->int:
 
     return combination
 
-def factorial(n:int)->int:
-    """
-    Gets the factorial of n.
-    """
-    # Get the factorial
-    if n == 0:
-        factorial = 1
-    else:
-        factorial = n * factorial(n-1)
-
-    return factorial
 
 if __name__ == "__main__":
     # Get the formula
-    formula = input("Enter the formula: ")
-
+    formula = '(x+1)^2'
     # Expand the formula
     expanded_formula = expand(formula)
 
     # Print the expanded formula
     print(expanded_formula)
 
-"""
-Enter the formula: (x+1)^2
-x^2+2x+1
-"""
+
+
